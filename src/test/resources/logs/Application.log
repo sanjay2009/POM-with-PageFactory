@@ -1,18 +1,15 @@
-03/02/2020 18:59:59 devpinoyLogger Launching Chrome
-03/02/2020 19:00:15 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (01111840e3c8c1a8da2e768c88e62858)] -> css selector: #header-account-menu]
-03/02/2020 19:00:16 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (01111840e3c8c1a8da2e768c88e62858)] -> css selector: #account-signin]
-03/02/2020 19:00:17 devpinoyLogger Typing in element: input
-03/02/2020 19:00:22 devpinoyLogger Typing in element: input
-03/02/2020 19:00:23 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (01111840e3c8c1a8da2e768c88e62858)] -> css selector: #gss-signin-submit]
-03/02/2020 19:00:35 devpinoyLogger Launching Chrome
-03/02/2020 19:00:50 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (c64c28f2fde86d5d0666d055881b6e13)] -> css selector: #tab-flight-tab-hp > span.tab-label]
-03/02/2020 19:00:53 devpinoyLogger Typing in element: input
-03/02/2020 19:00:55 devpinoyLogger Typing in element: input
-03/02/2020 19:00:56 devpinoyLogger Typing in element: input
-03/02/2020 19:00:56 devpinoyLogger Typing in element: input
-03/02/2020 19:00:57 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (c64c28f2fde86d5d0666d055881b6e13)] -> css selector: #traveler-selector-hp-flight > div > ul > li > button]
-03/02/2020 19:00:57 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (c64c28f2fde86d5d0666d055881b6e13)] -> css selector: #traveler-selector-hp-flight > div > ul > li > div > div > div > div.uitk-grid.step-input-outside.gcw-component.gcw-component-step-input.gcw-step-input.gcw-component-initialized > div:nth-child(4) > button > span.uitk-icon > svg]
-03/02/2020 19:00:57 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (c64c28f2fde86d5d0666d055881b6e13)] -> css selector: #traveler-selector-hp-flight > div > ul > li > div > div > div > div.children-wrapper > div.uitk-grid.step-input-outside.gcw-component.gcw-component-step-input.gcw-step-input.gcw-component-initialized > div:nth-child(4) > button > span.uitk-icon > svg]
-03/02/2020 19:00:58 devpinoyLogger Typing in element: select
-03/02/2020 19:00:58 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (c64c28f2fde86d5d0666d055881b6e13)] -> xpath: //*[@id="traveler-selector-hp-flight"]/div/ul/li/div/footer/div/div[2]/button]
-03/02/2020 19:01:19 devpinoyLogger Clicking on element: Proxy element for: AjaxElementLocator 'By.xpath: //*[@id="gcw-flights-form-hp-flight"]/div[8]/label/button'
+03/02/2020 21:55:14 devpinoyLogger Launching Chrome
+03/02/2020 21:55:46 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (ed3542fd2e75e034ad86777e041831ce)] -> css selector: #header-account-menu]
+03/02/2020 21:56:00 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (ed3542fd2e75e034ad86777e041831ce)] -> css selector: #account-signin]
+03/02/2020 21:56:15 devpinoyLogger Launching Chrome
+03/02/2020 21:56:50 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (4071f88ae19f993907d5e94dd19dbd2e)] -> css selector: #tab-flight-tab-hp > span.tab-label]
+03/02/2020 21:56:54 devpinoyLogger Typing in element: input
+03/02/2020 21:56:56 devpinoyLogger Typing in element: input
+03/02/2020 21:56:57 devpinoyLogger Typing in element: input
+03/02/2020 21:56:58 devpinoyLogger Typing in element: input
+03/02/2020 21:56:59 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (4071f88ae19f993907d5e94dd19dbd2e)] -> css selector: #traveler-selector-hp-flight > div > ul > li > button]
+03/02/2020 21:56:59 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (4071f88ae19f993907d5e94dd19dbd2e)] -> css selector: #traveler-selector-hp-flight > div > ul > li > div > div > div > div.uitk-grid.step-input-outside.gcw-component.gcw-component-step-input.gcw-step-input.gcw-component-initialized > div:nth-child(4) > button > span.uitk-icon > svg]
+03/02/2020 21:57:00 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (4071f88ae19f993907d5e94dd19dbd2e)] -> css selector: #traveler-selector-hp-flight > div > ul > li > div > div > div > div.children-wrapper > div.uitk-grid.step-input-outside.gcw-component.gcw-component-step-input.gcw-step-input.gcw-component-initialized > div:nth-child(4) > button > span.uitk-icon > svg]
+03/02/2020 21:57:00 devpinoyLogger Typing in element: select
+03/02/2020 21:57:01 devpinoyLogger Clicking on element: [[ChromeDriver: chrome on XP (4071f88ae19f993907d5e94dd19dbd2e)] -> xpath: //*[@id="traveler-selector-hp-flight"]/div/ul/li/div/footer/div/div[2]/button]
+03/02/2020 21:57:34 devpinoyLogger Clicking on element: Proxy element for: AjaxElementLocator 'By.xpath: //*[@id="gcw-flights-form-hp-flight"]/div[8]/label/button'

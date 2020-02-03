@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="32.023">
+           time="35.959">
   <properties />
   
   
-            <testcase name="signInTest" time="32.023" classname="com.sanqa.testcases.SignInTest" />
+            <testcase name="signInTest" time="35.959" classname="com.sanqa.testcases.SignInTest" />
       
 </testsuite>
