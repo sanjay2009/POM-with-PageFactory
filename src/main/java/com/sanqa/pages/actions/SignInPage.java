@@ -18,11 +18,13 @@ public class SignInPage extends Page
 	
 	public void doLogin(String username, String password)
 	{
-		signin.username.click();
-		signin.username.sendKeys(username);
-		signin.password.click();
-		signin.password.sendKeys(password);
-		signin.signinBtn.click();
+		//click(signin.username);
+		//signin.username.sendKeys(username);
+		type(signin.username, username);
+		//click(signin.password);
+		//signin.password.sendKeys(password);
+		type(signin.password, password);
+		click(signin.signinBtn);
 	}
 	
 	public void forgotPassword()

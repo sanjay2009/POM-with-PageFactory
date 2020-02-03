@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="PageFactory" duration-ms="97081" started-at="2020-02-03T11:58:37Z" finished-at="2020-02-03T12:00:14Z">
+  <suite name="PageFactory" duration-ms="98944" started-at="2020-02-03T13:29:53Z" finished-at="2020-02-03T13:31:32Z">
     <groups>
     </groups>
-    <test name="SignIn Test" duration-ms="41711" started-at="2020-02-03T11:58:37Z" finished-at="2020-02-03T11:59:19Z">
+    <test name="SignIn Test" duration-ms="32971" started-at="2020-02-03T13:29:53Z" finished-at="2020-02-03T13:30:26Z">
       <class name="com.sanqa.testcases.SignInTest">
-        <test-method status="PASS" signature="signInTest()[pri:0, instance:com.sanqa.testcases.SignInTest@df9b86]" name="signInTest" duration-ms="41097" started-at="2020-02-03T17:28:37Z" finished-at="2020-02-03T17:29:18Z">
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:com.sanqa.testcases.SignInTest@df9b86]" name="signInTest" duration-ms="32023" started-at="2020-02-03T18:59:53Z" finished-at="2020-02-03T19:00:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInTest -->
       </class> <!-- com.sanqa.testcases.SignInTest -->
     </test> <!-- SignIn Test -->
-    <test name="Flight Search Test" duration-ms="49450" started-at="2020-02-03T11:59:25Z" finished-at="2020-02-03T12:00:14Z">
+    <test name="Flight Search Test" duration-ms="60184" started-at="2020-02-03T13:30:32Z" finished-at="2020-02-03T13:31:32Z">
       <class name="com.sanqa.testcases.FlightSearchTest">
-        <test-method status="PASS" signature="signUp()[pri:0, instance:com.sanqa.testcases.FlightSearchTest@1d7f8ca]" name="signUp" is-config="true" duration-ms="22559" started-at="2020-02-03T17:29:25Z" finished-at="2020-02-03T17:29:47Z">
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.sanqa.testcases.FlightSearchTest@1d7f8ca]" name="signUp" is-config="true" duration-ms="17406" started-at="2020-02-03T19:00:32Z" finished-at="2020-02-03T19:00:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="flightSearchTest()[pri:0, instance:com.sanqa.testcases.FlightSearchTest@1d7f8ca]" name="flightSearchTest" duration-ms="23836" started-at="2020-02-03T17:29:47Z" finished-at="2020-02-03T17:30:11Z">
+        <test-method status="PASS" signature="flightSearchTest()[pri:0, instance:com.sanqa.testcases.FlightSearchTest@1d7f8ca]" name="flightSearchTest" duration-ms="40349" started-at="2020-02-03T19:00:49Z" finished-at="2020-02-03T19:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightSearchTest -->
-        <test-method status="PASS" signature="tesrdown()[pri:0, instance:com.sanqa.testcases.FlightSearchTest@1d7f8ca]" name="tesrdown" is-config="true" duration-ms="2909" started-at="2020-02-03T17:30:11Z" finished-at="2020-02-03T17:30:14Z">
+        <test-method status="PASS" signature="tesrdown()[pri:0, instance:com.sanqa.testcases.FlightSearchTest@1d7f8ca]" name="tesrdown" is-config="true" duration-ms="2299" started-at="2020-02-03T19:01:30Z" finished-at="2020-02-03T19:01:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tesrdown -->

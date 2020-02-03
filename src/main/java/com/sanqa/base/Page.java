@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.sanqa.pages.actions.TopNavigation;
 import com.sanqa.utilities.ExcelReader;
 import com.sanqa.utilities.ExtentManager;
@@ -85,8 +87,23 @@ public class Page
 		//wait = new WebDriverWait(driver);
 		
 		topNav = new TopNavigation(driver);
-		
 	}
+	
+		public static void click (WebElement element)
+		{
+			element.click();
+			log.debug("Clicking on element: " +element);
+			test.log(LogStatus.INFO, "Clicking on: " +element);
+		}
+		
+		public static void type(WebElement element, String value)
+		{
+			element.sendKeys(value);
+			log.debug("Typing in element: "+element.getTagName());
+			test.log(LogStatus.INFO, "Typing in element:" +element.getTagName());
+		}
+		
+	
 	
 	public static void quitBrowser()
 	{

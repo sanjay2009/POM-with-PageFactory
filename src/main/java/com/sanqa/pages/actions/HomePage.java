@@ -22,7 +22,7 @@ public class HomePage extends Page
 	
 	public HomePage goToFlights()
 	{
-		home.flightTab.click();
+		click(home.flightTab);
 		return this;
 	}
 	
@@ -53,34 +53,45 @@ public class HomePage extends Page
 	
 	public void bookAFlight(String from, String to, String departing, String returning)
 	{
-		home.fromcity.click();
-		home.fromcity.sendKeys(from);
+		//click(home.fromcity);
+		type(home.fromcity, from);
+		//home.fromcity.sendKeys(from);
 		
-		home.tocity.click();
-		home.tocity.sendKeys(to);
+		//click(home.tocity);
+		type(home.tocity, to);
+		//home.tocity.sendKeys(to);
 		
-		home.departingdate.click();
-		home.departingdate.sendKeys(departing);
+		//click(home.departingdate);
+		type(home.departingdate,departing);
+		//home.departingdate.sendKeys(departing);
 		
 		
-		home.returningdate.click();
-		home.returningdate.sendKeys(returning);
+		//home.returningdate.click();
+		type(home.returningdate, returning);
+		//home.returningdate.sendKeys(returning);
 		
-		home.travellers.click();
-		home.adults.click();
+		click(home.travellers);
+		//home.travellers.click();
+		click(home.adults);
+		//type(home.adults, noOfAdults);
+		//home.adults.click();
 		//home.adults.sendKeys(noOfAdults);
 		
-		home.children.click();
+		click(home.children);
+		//type(home.children, "1");
+		//home.children.click();
 		//Select dp = new Select(driver.findElement(By.id("flight-age-select-1-hp-flight")));
 		//dp.selectByVisibleText("2");
-		home.childage.sendKeys("4");
+		//home.childage.sendKeys("4");
+		type(home.childage, "4");
 		
 		//driver.findElement(By.xpath("//*[@id=\"traveler-selector-hp-flight\"]/div/ul/li/div/footer/div/div[2]/button")).click();
 		
-		home.close.click();
-		home.search.click();
+		//home.close.click();
+		//home.search.click();
 		
-		
+		click(home.close);
+		click(home.search);
 		
 		
 		//home.children.sendKeys(noOfChildren);
