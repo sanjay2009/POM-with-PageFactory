@@ -16,9 +16,11 @@ public class TopNavigation {
 		PageFactory.initElements(factory, this.topNavigate);
 	}
 	
-	public void gotoSignIn()
+	public SignInPage gotoSignIn()
 	{
-		
+		topNavigate.accountBtn.click();
+		topNavigate.signInBtn.click();
+		return new SignInPage();
 	}
 	
 	public void gotoCreateAccount()
@@ -65,3 +67,4 @@ public class TopNavigation {
 		
 	}
 }
+		

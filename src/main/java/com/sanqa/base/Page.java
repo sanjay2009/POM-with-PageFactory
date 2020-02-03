@@ -80,6 +80,7 @@ public class Page
 		
 		driver.get(Constants.testsiteurl);
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		//driver.manage().timeouts().implicitlyWait(Constants.implicitwait, TimeUnit.SECONDS);
 		//wait = new WebDriverWait(driver);
 		
