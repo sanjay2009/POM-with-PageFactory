@@ -26,6 +26,11 @@ public class HomePage extends Page
 		return this;
 	}
 	
+	public int findTabCount()
+	{
+		return home.tabcount.size();
+	}
+	
 	public void goToHotels()
 	{
 		

@@ -5,9 +5,9 @@ package com.sanqa.utilities;
 public class TestConfig {
 	
 	public static String server="smtp.gmail.com";
-	public static String from = "vaffaproject@gmail.com";
-	public static String password = "Selenium@123";
-	public static String[] to ={"seleniumcoaching@gmail.com","trainer@way2automation.com"};
+	public static String from = "ramesh.sanjay@gmail.com";
+	public static String password = "Hitha@2009";
+	public static String[] to ={"uip311977g@gmail.com","trainer@way2automation.com"};
 	public static String subject = "Extent Project Report";
 	
 	public static String messageBody ="TestMessage";

@@ -1,5 +1,7 @@
 package com.sanqa.pages.locators;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -41,4 +43,8 @@ public class HomePageLocators
 	
 	@FindBy(xpath="//*[@id=\"gcw-flights-form-hp-flight\"]/div[8]/label/button")
 	public WebElement search;
+	
+	@FindBy(css="span[class='tab-label']")
+	public List<WebElement> tabcount;
+	
 }
